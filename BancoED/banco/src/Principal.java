@@ -43,7 +43,9 @@ public class Principal {
 		System.out.print("Qual posição do vetor deseja que essa conta ocupe? ");
 		int i = input.nextInt();
 		addConta.definirPosicao(novaConta, i);
-		System.out.println("\nAtualização da listagem de contas: ");addConta.listarConta();
+
+		System.out.println("\nAtualização de listagem:");
+		addConta.listarConta();
 		input.close();
     }
 
