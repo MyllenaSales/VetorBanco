@@ -44,6 +44,7 @@ public class CadastrarConta {
 	        contas[posicao] = conta;
 	        totalContas++;
             System.out.println("Alteração feita!");
+
 	    } else {
 	        System.out.println("Não foi possível adicionar a conta! (Posição inválida ou vetor cheio)");
 	    }
